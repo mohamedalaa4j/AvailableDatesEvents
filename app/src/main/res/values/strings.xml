@@ -1,3 +1,37 @@
 <resources>
     <string name="app_name">Available Dates Events</string>
+
+<!--    <string name="material_calendar_monday">اﻷثنين</string>-->
+<!--    <string name="material_calendar_tuesday">الثلاثاء</string>-->
+<!--    <string name="material_calendar_wednesday">اﻷربعاء</string>-->
+<!--    <string name="material_calendar_thursday">الخميس</string>-->
+<!--    <string name="material_calendar_friday">الجمعه</string>-->
+<!--    <string name="material_calendar_saturday">السبت</string>-->
+<!--    <string name="material_calendar_sunday">اﻷحد</string>-->
+    <string name="material_calendar_monday">Monday</string>
+    <string name="material_calendar_tuesday">Tuesday</string>
+    <string name="material_calendar_wednesday">Wednesday</string>
+    <string name="material_calendar_thursday">Thursday</string>
+    <string name="material_calendar_friday">Friday</string>
+    <string name="material_calendar_saturday">Saturday</string>
+    <string name="material_calendar_sunday">Sunday</string>
+
+    <array name="material_calendar_months_array">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </array>
+
+    <string name="material_calendar_today_button">Today</string>
+    <string name="material_calendar_positive_button">OK</string>
+    <string name="material_calendar_negative_button">Cancel</string>
 </resources>

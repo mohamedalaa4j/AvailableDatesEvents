@@ -7,12 +7,35 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/tvCalender"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginVertical="50dp"
+        android:text="Calender"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <com.applandeo.materialcalendarview.CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="50dp"
+        app:type="one_day_picker"
+        app:eventsEnabled="false"
+        app:abbreviationsLabelsSize="4sp"
+        app:headerColor="@color/white"
+        app:headerLabelColor="@color/black"
+        app:forwardButtonSrc="@drawable/ic_forward"
+        app:previousButtonSrc="@drawable/ic_previous"
+        app:abbreviationsLabelsColor="#AAA8A8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:selectionColor="#AAA8A8"
+        app:daysLabelsColor="#AAA8A8"
+        app:disabledDaysLabelsColor="#575555"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvCalender"
+        android:theme="@style/CalenderViewCustom"
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
